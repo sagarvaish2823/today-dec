@@ -24,4 +24,4 @@ jobs:
 
       - name: Deploy
         run: |
-          npx sst deploy --stage prod
+          yarn sst deploy --stage prod
